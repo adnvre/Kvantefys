@@ -5,6 +5,7 @@
 \usepackage{graphicx} %for å inkludere grafikk
 \usepackage{verbatim} %for å inkludere filer med tegn LaTeX ikke liker
 \usepackage{mathpazo}
+\usepackage{amsmath}
 \bibliographystyle{plain}
 
 \title{FYS 2140 Hjemmeeksamen}
@@ -21,17 +22,46 @@
 \subsection*{a1)}
 
 \begin{equation}
-\lambda_C = \frac{h}{mc}
+\lambda_C = \frac{h}{m_ec}
 \end{equation}
 
 
+\begin{align*}
+\lambda_C &= comptonbølgelengden \\
+h &= planckkonstanten \\
+m_e &= elektronmassen \\
+c &= lyshastighetetn \\
+\end{align*}
 
 
+\begin{figure}[h]
 \includegraphics[scale=0.4]{compton}
+\caption{Eksperimentelt oppsett for Comptons forsøk, med $\theta =90$ grader. Bilde hentet fra kompendiet}
+\label{fig:compton}
+\end{figure}
+
+\subsection*{a2)}
 
 
+\subsection*{a3)}
 
 
+\begin{figure}[h]
+\includegraphics[scale=0.4]{intensitetcompton}
+\caption{Plot over intensiteten til stråling i Comptons forsøk. $\lambda_0$ er den innkommende strålingen, $\lambda'$ er den spredte strålingen.}
+\label{fig:intensitetcompton}
+\end{figure}
+
+toppen i det første plottet i figur \ref{fig:intensitetcompton} og  til venstre i alle de andre plotene i firgur \ref{fig:intensitetcompton}  skyldes forskjell i kollisjon. Når vi har en endring i bølgelengde så vekselvirker fotonet med de elektronene som er svakest bundet til atomet, da gjør vi som fysikerer gjør best og forenkler litt og ser på det som et foton mot et fritt elektron. Men hvis vi tenker at elektroner er sterkt bundet eller at fotonet ikke har nok energi så vil ikke elektronet bli slått løst, dermed blir kollisjonen som en kollisjon mellom et foton og hele atomet. Hvis vi antar at materialet består av karbon så må vi bytte ut massen til elektronet i kollisjonen med massen til et karbonatom. Massen til et karbonatom er ca $22000m_e$. Da blir comptonbølgelengden 
+
+\begin{equation}
+\lambda_C = \frac{h}{22000m_ec} \approx 10^{-7} nm = 0.1fm
+\end{equation}
+
+Den relative endringen $\frac{\lambda_C}{\lambda}$ blir såvidt observerbar. 
+\\
+
+Grunnen til av vi ikke bruker synlig lys til comptoneksperimentet er at synlig lys ikke har nok energi, Synlig lys har nok energi til å kunne få til fotoelektrisk effekt, men ikke til comptonspredning.
 
 
 \end{document}

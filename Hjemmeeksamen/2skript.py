@@ -1,43 +1,23 @@
-#!/usr/bin/env python
-"""
-Created on Sun 27 Oct 2013.
-Modified to solve the home-exam in FYS2140 March 2015.
-
-
-Uses the Crank Nicolson scheme to solve the time dependent Schrodinger equation
-for a potential barrier.
-
-Animation is done using the matplotlib.pyplot library.
-
-@author Are Raklev
-@author Benedicte Emilie Braekken
-"""
-
-# Tools for sparse matrices
 import scipy.sparse as sparse
 import scipy.sparse.linalg
-
-# Numerical tools
 from numpy import *
-
-# Plotting library
 from matplotlib.pyplot import *
 
 """Physical constants"""
 _E0e =   0.511       # Rest energy for an electron [MeV]
-_hbarc = 0.1973      # [MeV pm]
-_c = 3.0e2           # Spees of light [pm / as]
+_hbarc = 197.3      # [MeV fm]
+_c = 3.0e5           # Spees of light [fm / as]
 
 """Parameters of initial state"""
-a  =  1.00 # [pm]
-l  =  2.0 # [1 / pm]
+a  =  1.00 # [fm]
+l  =  1.38 # [1 / fm]
 
 # Define functions
 def Psi0( x , a, l ):
     '''
     Initial state for a travelling gaussian wave packet.
     '''
-    x0 = -5.00 # [pm]
+    x0 = 5.00 # [fm]
     
     A = ( 1. / ( 2 * pi * a**2 ) )**0.25
     K1 = exp( - ( x - x0 )**2 / ( 4. * a**2 ) )
@@ -65,7 +45,7 @@ def potentialBarrier( x, height=1, width=0.0025 ):
 
 if __name__ == '__main__':
     nx = 5001 # Number of points in x direction
-    dx = 0.020 # Distance between x points [pm]
+    dx = 0.020 # Distance between x points [fm]
 
     # Use zero as center, same amount of points each side
     x1 = - 0.5 * nx * dx
@@ -114,8 +94,8 @@ if __name__ == '__main__':
     # Add other properties to the plot to make it more elegant
     fig.suptitle("Solution of Schrodinger's equation with potential barrier") # Title of plot
     ax.grid('on') # Square grid lines in plot
-    ax.set_xlabel('$x$ [pm]') # X label of axes
-    ax.set_ylabel('$|\Psi(x, t)|^2$ [1/pm] and $V(x)$ [MeV]') # Y label of axes
+    ax.set_xlabel('$x$ [fm]') # X label of axes
+    ax.set_ylabel('$|\Psi(x, t)|^2$ [1/fm] and $V(x)$ [MeV]') # Y label of axes
     ax.set_xlim([-30, 30])  # Sets x-axis range
     ax.set_ylim([0, 1.1])   # Sets y-axis range
     ax.legend(loc='best')   # Adds labels of the lines to the window

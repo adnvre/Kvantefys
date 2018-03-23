@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.24)  23 MAR 2018 02:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.24)  23 MAR 2018 10:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -347,6 +347,51 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count100
+\lst@gtempboxa=\box28
+\lst@token=\toks24
+\lst@length=\count101
+\lst@currlwidth=\dimen114
+\lst@column=\count102
+\lst@pos=\count103
+\lst@lostspace=\dimen115
+\lst@width=\dimen116
+\lst@newlines=\count104
+\lst@lineno=\count105
+\lst@maxwidth=\dimen117
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count106
+\lst@skipnumbers=\count107
+\lst@framebox=\box29
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
 
 LaTeX Warning: Unused global option(s):
     [norsk].
@@ -354,36 +399,36 @@ LaTeX Warning: Unused global option(s):
 (./Kvantehjemmeeksamen.aux)
 \openout1 = `Kvantehjemmeeksamen.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 45.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count100
-\scratchdimen=\dimen114
-\scratchbox=\box28
-\nofMPsegments=\count101
-\nofMParguments=\count102
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count103
-\MPscratchDim=\dimen115
-\MPnumerator=\count104
-\makeMPintoPDFobject=\count105
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count108
+\scratchdimen=\dimen118
+\scratchbox=\box30
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen119
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -432,52 +477,53 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 17.
+\c@lstlisting=\count114
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 47.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 17.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 47.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 17.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 47.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 17.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 47.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 17.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 47.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 23.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 53.
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 35.
+LaTeX Warning: Command \o invalid in math mode on input line 65.
 
 Missing character: There is no ø in font pplr7t!
 
-LaTeX Warning: Command \o invalid in math mode on input line 35.
+LaTeX Warning: Command \o invalid in math mode on input line 65.
 
 Missing character: There is no ø in font pplr7t!
 <compton.png, id=1, 759.83875pt x 585.18625pt>
 File: compton.png Graphic file (type png)
  <use compton.png>
-Package pdftex.def Info: compton.png used on input line 58.
+Package pdftex.def Info: compton.png used on input line 88.
 (pdftex.def)             Requested size: 303.93011pt x 234.07034pt.
 
 
@@ -490,34 +536,143 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: intensitetcompton.png Graphic file (type png)
 
 <use intensitetcompton.png>
-Package pdftex.def Info: intensitetcompton.png used on input line 93.
+Package pdftex.def Info: intensitetcompton.png used on input line 123.
 (pdftex.def)             Requested size: 344.07939pt x 277.03009pt.
  [3 <./intensitetcompton.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
 
  []
 
-[4] (./Kvantehjemmeeksamen.aux) ) 
+
+LaTeX Warning: Command \r invalid in math mode on input line 175.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 175.
+
+Missing character: There is no Å in font pplr7t!
+Missing character: There is no Å in font pplr7t!
+
+LaTeX Warning: Command \r invalid in math mode on input line 175.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 175.
+
+Missing character: There is no Å in font pplr7t!
+Missing character: There is no Å in font pplr7t!
+[4]
+
+LaTeX Warning: Command \r invalid in math mode on input line 182.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 182.
+
+Missing character: There is no Å in font pplr7t!
+Missing character: There is no Å in font pplr7t!
+
+LaTeX Warning: Command \r invalid in math mode on input line 182.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 182.
+
+Missing character: There is no Å in font pplr7t!
+Missing character: There is no Å in font pplr7t!
+
+LaTeX Warning: Command \r invalid in math mode on input line 182.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 182.
+
+Missing character: There is no Å in font pplr7t!
+Missing character: There is no Å in font pplr7t!
+
+LaTeX Warning: Command \r invalid in math mode on input line 182.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 182.
+
+Missing character: There is no Å in font pplr7t!
+Missing character: There is no Å in font pplr7t!
+<2a.png, id=27, 578.16pt x 433.62pt>
+File: 2a.png Graphic file (type png)
+ <use 2a.png>
+Package pdftex.def Info: 2a.png used on input line 196.
+(pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
+
+Overfull \hbox (14.70924pt too wide) in paragraph at lines 196--197
+[][] 
+ []
+
+<2b.png, id=28, 578.16pt x 433.62pt>
+File: 2b.png Graphic file (type png)
+ <use 2b.png>
+Package pdftex.def Info: 2b.png used on input line 205.
+(pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
+
+Overfull \hbox (14.70924pt too wide) in paragraph at lines 205--206
+[][] 
+ []
+
+<2c1.png, id=29, 578.16pt x 433.62pt>
+File: 2c1.png Graphic file (type png)
+ <use 2c1.png>
+Package pdftex.def Info: 2c1.png used on input line 212.
+(pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
+
+Overfull \hbox (14.70924pt too wide) in paragraph at lines 212--213
+[][] 
+ []
+
+<2c2.png, id=30, 578.16pt x 433.62pt>
+File: 2c2.png Graphic file (type png)
+ <use 2c2.png>
+Package pdftex.def Info: 2c2.png used on input line 219.
+(pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
+
+Overfull \hbox (14.70924pt too wide) in paragraph at lines 219--220
+[][] 
+ []
+
+<24.png, id=31, 578.16pt x 433.62pt>
+File: 24.png Graphic file (type png)
+ <use 24.png>
+Package pdftex.def Info: 24.png used on input line 226.
+(pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
+
+Overfull \hbox (14.70924pt too wide) in paragraph at lines 226--227
+[][] 
+ []
+
+[5] [6 <./2a.png>] [7 <./2b.png>] [8 <./2c1.png>] [9 <./2c2.png>] [10 <./24.png
+>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 237.
+
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) (./1skript.py
+[11]) (./2skript.py [12] [13] [14]) (./3skript.py [15]) (./4skript.py [16]
+[17] [18] [19]) [20] (./Kvantehjemmeeksamen.aux) ) 
 Here is how much of TeX's memory you used:
- 2743 strings out of 493089
- 35602 string characters out of 6134842
- 95695 words of memory out of 5000000
- 6156 multiletter control sequences out of 15000+600000
- 31190 words of font info for 73 fonts, out of 8000000 for 9000
+ 5154 strings out of 493089
+ 65973 string characters out of 6134842
+ 357135 words of memory out of 5000000
+ 8522 multiletter control sequences out of 15000+600000
+ 34040 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,23p,851b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/
-dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathpazo/
-fplmr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/mathpazo/fplmr
-i.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Kvantehjemmeeksamen.pdf (4 pages, 312633 bytes).
+ 38i,10n,40p,851b,1769s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texm
+f-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2015/texmf-
+dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
+ublic/mathpazo/fplmr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
+/mathpazo/fplmri.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-
+super/sftt1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino
+/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on Kvantehjemmeeksamen.pdf (20 pages, 526450 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

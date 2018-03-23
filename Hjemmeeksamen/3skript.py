@@ -1,16 +1,4 @@
-#!/usr/bin/env python
-"""
-Created on Tue 3 Mar 2015.
-
-Solutions for home-exam in FYS2140 March 2015.
-
-@author Are Raklev
-"""
-
-# Numerical tools
 from numpy import *
-
-# Plotting library
 from matplotlib.pyplot import *
 
 
@@ -24,8 +12,8 @@ def T( E ):
     '''
     Expression for transmission probability
     '''
-    V0 = 1.   # Height of potential [MeV]
-    L = 0.25  # Length of potential box [pm]
+    V0 = 34.   # Height of potential [MeV]
+    L = 17.  # Length of potential box [pm]
     
     T = 1. / (1. + V0**2/(4.*(V0-E)*E)*sinh(sqrt(2.*_E0e*(V0-E))/_hbarc*L)**2)
 

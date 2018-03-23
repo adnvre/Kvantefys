@@ -6,8 +6,38 @@
 \usepackage{verbatim} %for å inkludere filer med tegn LaTeX ikke liker
 \usepackage{mathpazo}
 \usepackage{amsmath}
+\usepackage{listings}
 \bibliographystyle{plain}
+\usepackage{xcolor}
 
+\definecolor{background}{gray}{0.95}
+\definecolor{comment}{rgb}{0,0.5,0}
+\colorlet{keyword}{blue}
+\colorlet{string}{red}
+\lstset{numbers=left,
+	title=\lstname,
+	numberstyle=\tiny, 
+	breaklines=true,
+	tabsize=4,
+	language=Python,
+	morekeywords={with,super,as},,
+	frame=single,
+	basicstyle=\footnotesize\tt,
+	commentstyle=\color{comment},
+	keywordstyle=\color{keyword},
+	stringstyle=\color{string},
+	backgroundcolor=\color{background},
+	showstringspaces=false,
+	numbers=left,
+	numbersep=5pt,
+	literate=
+		{æ}{{\ae}}1
+		{å}{{\aa}}1
+		{ø}{{\o}}1
+		{Æ}{{\AE}}1
+		{Å}{{\AA}}1
+		{Ø}{{\O}}1
+	}
 
 \title{FYS 2140 Hjemmeeksamen}
 \author{15053}
@@ -119,17 +149,99 @@ Vi setter inn verdiene i formelen, $T=25^\circ C = 298.15K$
 
 
 \begin{align*}
-\langle p \rangle &= \frac{\langle E \rangle}{c} =  38.5 \cdot 10^{-3} eV/c
+\langle p \rangle &= \frac{\langle E \rangle}{c} =  38.5 \cdot 10^{-3} eV/c \approx 1.28 \cdot 10^{-10} eV
+\end{align*}
+
+\begin{align*}
+\langle \lambda \rangle = \frac{hc}{\langle E \rangle} = \frac{1240eV nm}{38.5\cdot10^{-3} eV} = 3.22 \cdot10^4 nm
 \end{align*}
 
 
+\subsection*{b2)}
+
+Vi bruker Bragg-likningen for n = 1.
+
+\begin{equation}
+\lambda = 2d \sin\theta \rightarrow \theta = \sin^{-1}(\frac{\lambda}{2d}) = 19.1^\circ
+\end{equation}
+
+
+Nøytroner med bølgelengde 1.85 Å har størst intensistet  ved $19.1^\circ$. For å filtrere ut bølgelengder med spredning mindre enn $\frac{\mid \delta\lambda \mid}{\lambda} = 10\%$ så har vi 
+
+\begin{align*}
+\frac{\mid \lambda'  - \lambda \mid}{\lambda} = 10\% \\ 
+\rightarrow \lambda_{maks}' = 1.05 \lambda \ og \  \lambda_{min}' = 0.95 \lambda\\
+\rightarrow \lambda_{maks}' = 1.94 Å  \  og \  \lambda_{min}' = 1.76 Å
+\end{align*}
+
+Bragg-likningen, n=1:
+
+\begin{align*}
+ \theta_{maks} &= \sin^{-1}(\frac{1.94Å}{2\cdot2.82Å}) = 20.1^\circ \\
+ \theta_{min} &= \sin^{-1}(\frac{1.76Å}{2\cdot2.82Å}) = 18.2^\circ\\
+\end{align*}
+
+
+Vår område i vinkler blir da fra $18.2^\circ$ til $ 20.1^\circ$
+
+
+
+\section*{Oppgave 2}
 
 
 
 
 
+\begin{figure}
+\includegraphics[scale=0.7]{2a.png}
+\caption{plottet for $\mid \Psi(x,0)\mid^2$}
+\label{fig:2a}
+\end{figure}
 
 
 
 
+\begin{figure}
+\includegraphics[scale=0.7]{2b.png}
+\caption{Løsning av likningen med potensialsperre}
+\label{fig:2b}
+\end{figure}
+
+
+\begin{figure}
+\includegraphics[scale=0.7]{2c1.png}
+\caption{plottet for numeriske og den analytiske løsningen for T(E)}
+\label{fig:2c1}
+\end{figure}
+
+
+\begin{figure}
+\includegraphics[scale=0.7]{2c2.png}
+\caption{plottet for den numeriske og den analytiske løsningen for T(E)}
+\label{fig:2c2}
+\end{figure}
+
+
+\begin{figure}
+\includegraphics[scale=0.7]{24.png}
+\caption{Løsning av likningen med potensialsperre}
+\label{fig:24}
+\end{figure}
+
+
+\newpage
+
+\section*{Code}
+
+
+\lstinputlisting{1skript.py}
+
+
+\lstinputlisting{2skript.py}
+
+
+\lstinputlisting{3skript.py}
+
+
+\lstinputlisting{4skript.py}
 \end{document}

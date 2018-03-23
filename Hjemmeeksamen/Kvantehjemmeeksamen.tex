@@ -8,6 +8,7 @@
 \usepackage{amsmath}
 \bibliographystyle{plain}
 
+
 \title{FYS 2140 Hjemmeeksamen}
 \author{15053}
 \date{\today}
@@ -41,12 +42,12 @@ Forskjellen i bølgelengde gis ved
 
 \begin{equation}
 \Delta\lambda = \lambda_C(1-cos\theta)
-\label{eq:comptonwavelength}
+\label{eq:1}
 \end{equation}
 
 
 \begin{equation}
-\lambda_C = \frac{h}{m_ec}= 2.43 x 10^{-3} nm
+\lambda_C = \frac{h}{m_ec}= \underline{\underline{2.43 x 10^{-3} nm}}
 \end{equation}
 
 
@@ -61,12 +62,29 @@ Forskjellen i bølgelengde gis ved
 
 \subsection*{a2)}
 
-For Fra formel \ref{eq:comptonwavelength} så har vi 
+For Fra formel \eqref{eq:1} så har vi 
 
 \begin{align*}
 \Delta\lambda &= \lambda_C(1-cos\theta)\\
 \end{align*}
 
+Med verdier
+
+\begin{align*}
+\lambda &= 0.0709 nm\\
+\lambda' &= 0.0749 nm\\
+\Delta\lambda &= 0.004 nm
+\end{align*}
+
+da får vi
+
+\begin{align*}
+\Delta\lambda &= \lambda_C(1-cos\theta)\\
+\frac{\Delta\lambda}{\lambda_C} &=  1- \cos \theta\\
+\theta &= \cos^{-1}(1- \frac{\Delta\lambda}{\lambda_C})\\
+\theta &= \cos^{-1}(1- \frac{0.004nm}{2.43x10^{-3}nm})\\
+\theta &= \underline{\underline{130.5^\circ}}
+\end{align*}
 
 \subsection*{a3)}
 
@@ -77,7 +95,7 @@ For Fra formel \ref{eq:comptonwavelength} så har vi
 \label{fig:intensitetcompton}
 \end{figure}
 
-toppen i det første plottet i figur \ref{fig:intensitetcompton} og  til venstre i alle de andre plotene i firgur \ref{fig:intensitetcompton}  skyldes forskjell i kollisjon. Når vi har en endring i bølgelengde så vekselvirker fotonet med de elektronene som er svakest bundet til atomet, da gjør vi som fysikerer gjør best og forenkler litt og ser på det som et foton mot et fritt elektron. Men hvis vi tenker at elektroner er sterkt bundet eller at fotonet ikke har nok energi så vil ikke elektronet bli slått løst, dermed blir kollisjonen som en kollisjon mellom et foton og hele atomet. Hvis vi antar at materialet består av karbon så må vi bytte ut massen til elektronet i kollisjonen med massen til et karbonatom. Massen til et karbonatom er ca $22000m_e$. Da blir comptonbølgelengden 
+Toppen i det første plottet i figur \ref{fig:intensitetcompton} og  til venstre i alle de andre plotene i firgur \ref{fig:intensitetcompton}  skyldes forskjell i kollisjon. Når vi har en endring i bølgelengde så vekselvirker fotonet med de elektronene som er svakest bundet til atomet, da gjør vi som fysikerer gjør best og forenkler litt og ser på det som et foton mot et fritt elektron. Men hvis vi tenker at elektroner er sterkt bundet eller at fotonet ikke har nok energi så vil ikke elektronet bli slått løst, dermed blir kollisjonen som en kollisjon mellom et foton og hele atomet. Hvis vi antar at materialet består av karbon så må vi bytte ut massen til elektronet i kollisjonen med massen til et karbonatom. Massen til et karbonatom er ca $22000m_e$. Da blir comptonbølgelengden 
 
 \begin{equation}
 \lambda_C = \frac{h}{22000m_ec} \approx 10^{-7} nm = 0.1fm
@@ -86,7 +104,32 @@ toppen i det første plottet i figur \ref{fig:intensitetcompton} og  til venstre
 Den relative endringen $\frac{\lambda_C}{\lambda}$ blir såvidt observerbar. 
 \\
 
-Grunnen til av vi ikke bruker synlig lys til comptoneksperimentet er at synlig lys ikke har nok energi, Synlig lys har nok energi til å kunne få til fotoelektrisk effekt, men ikke til comptonspredning.
+Grunnen til av vi ikke bruker synlig lys til comptoneksperimentet er at synlig lys ikke har nok energi. Synlig lys har nok energi til å kunne få til fotoelektrisk effekt, men ikke til comptonspredning.
+
+
+\subsection*{b1)}
+
+Vi setter inn verdiene i formelen, $T=25^\circ C = 298.15K$
+
+\begin{align*}
+\langle E \rangle &= k_BT\\
+\langle E \rangle &= \frac{3}{2} \cdot 8.61 \cdot 10^{-5}  eVK^{-1} \cdot 298.15 K\\
+&= 0.0385 \approx \underline{\underline{ 38.5 \cdot10^{-3} eV}}
+\end{align*}
+
+
+\begin{align*}
+\langle p \rangle &= \frac{\langle E \rangle}{c} =  38.5 \cdot 10^{-3} eV/c
+\end{align*}
+
+
+
+
+
+
+
+
+
 
 
 \end{document}
